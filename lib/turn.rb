@@ -11,7 +11,7 @@ def turn(board)
   move = gets
   move = move.to_i
   board[move-1]="X"
-  display_board
+  display_board(board)
 end
 
 def valid_move
