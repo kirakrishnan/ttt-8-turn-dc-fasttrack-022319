@@ -1,5 +1,5 @@
 def display_board(board)
-  puts "   | x |   "
+  puts "   | #{board[1]} |   "
   puts "-"*11
   puts "   |   |   "
   puts "-"*11
