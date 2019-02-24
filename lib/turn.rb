@@ -8,7 +8,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  move = gets.to_i
+  move = gets
+  move = move.to_i
   board[move-1]="X"
   display_board
 end
