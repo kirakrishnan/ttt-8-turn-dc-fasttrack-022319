@@ -10,7 +10,7 @@ def turn(board)
   puts "Please enter 1-9:"
   move = gets
   move = move.to_i
-  move = move -1
+  move = move - 1
   board[move]="X"
   display_board(board)
 end
