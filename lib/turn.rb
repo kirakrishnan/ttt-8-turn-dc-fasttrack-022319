@@ -20,7 +20,6 @@ def turn(board)
 end
 
 def valid_move(board, index)
-  if()
 end
 
 def move
