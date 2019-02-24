@@ -19,7 +19,8 @@ def turn(board)
   display_board(board)
 end
 
-def valid_move
+def valid_move(board, index)
+  if()
 end
 
 def move
