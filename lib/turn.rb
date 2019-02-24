@@ -12,7 +12,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  move = gets.chomp
+  move = gets
   move = input_to_index(move)
   move = move - 1
   board[move]="X"
