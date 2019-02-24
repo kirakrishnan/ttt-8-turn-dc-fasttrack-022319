@@ -1,4 +1,6 @@
-def display_board
+def display_board(board)
+  puts "||"
+  puts "-"*11
 end
 
 def valid_move
@@ -10,3 +12,4 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
+display_board(board)
