@@ -1,5 +1,5 @@
 def display_board(board)
-  puts "   |  |  "
+  puts "   |   |   "
   puts "-"*11
   puts "#{board[3]}|#{board[4]}|#{board[5]}"
   puts "-"*11
