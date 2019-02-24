@@ -8,6 +8,9 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  move = gets
+  board[move.to_i-1]="X"
+  display_board
 end
 
 def valid_move
