@@ -6,6 +6,9 @@ def display_board(board)
   puts "   |   |   "
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+end
 def valid_move
 end
 
@@ -16,3 +19,4 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
+turn(board)
